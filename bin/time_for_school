@@ -23,7 +23,6 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Parsons"
-jim.learn #learn is not defined in user and is exlusive to student and teacher, so it's not there.
 
 
 paul = Student.new
