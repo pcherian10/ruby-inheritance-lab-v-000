@@ -30,4 +30,8 @@ paul = Student.new
 paul.first_name = "Paul"
 paul.last_name = "Cherian"
 
-more_knowledge = paul.
+more_knowledge = avi.teach
+
+paul.learn(more_knowledge)
+
+puts "Paul just learned this important knowledge: '#{paul.knowledge.first}' from Avi"
