@@ -26,3 +26,8 @@ jim.last_name = "Parsons"
 jim.learn #learn is not defined in user and is exlusive to student and teacher, so it's not there.
 
 
+paul = Student.new
+paul.first_name = "Paul"
+paul.last_name = "Cherian"
+
+more_knowledge = paul.
